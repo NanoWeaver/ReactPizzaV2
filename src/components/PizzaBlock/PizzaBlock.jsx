@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 
 function PizzaBlock({ price, title, imageUrl, sizes, types }) {
   const [activeType, setActiveType] = useState(0);
